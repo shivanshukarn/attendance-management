@@ -1,0 +1,110 @@
+[
+    {
+        "name": "Heidy Bentley",
+        "roll": 1,
+        "class": 10,
+        "gender": "male",
+        "dob": "05/07/1995",
+        "phone": 7342078567,
+        "address": "51364 Plymouth Lake Dr Plymouth, Michigan(MI), 48170"
+    },
+    {
+        "name": "Kirsten Hudson",
+        "roll": 2,
+        "class": 10,
+        "gender": "female",
+        "dob": "15/08/1997",
+        "phone": 8028781705,
+        "address": "12 Church St Essex Junction, Vermont(VT), 05452"
+    },
+    {
+        "name": "Elliot Odom",
+        "roll": 3,
+        "class": 10,
+        "gender": "male",
+        "dob": "01/02/1995",
+        "phone": 3133880320,
+        "address": "3771 9th St Ecorse, Michigan(MI), 48229"
+    },
+    {
+        "name": "Omari Castro",
+        "roll": 4,
+        "class": 10,
+        "gender": "male",
+        "dob": "29/02/1996",
+        "phone": 3134065136,
+        "address": "1246 Magnolia Dr Inkster, Michigan(MI), 48141"
+    },
+    {
+        "name": "Annabelle Dudley",
+        "roll": 5,
+        "class": 10,
+        "gender": "female",
+        "dob": "19/10/1998",
+        "phone": 5025700444,
+        "address": "218 Victoria Way Georgetown, Kentucky(KY), 40324"
+    },
+    {
+        "name": "Malcolm Franco",
+        "roll": 6,
+        "class": 10,
+        "gender": "female",
+        "dob": "02/08/1995",
+        "phone": 8475162304,
+        "address": "435 Mildred Ave Cary, Illinois(IL), 60013"
+    },
+    {
+        "name": "Isabel Alexander",
+        "roll": 7,
+        "class": 10,
+        "gender": "male",
+        "dob": "28/03/1996",
+        "phone": 6102756741,
+        "address": "809 Selma St #O Norristown, Pennsylvania(PA), 19401"
+    },
+    {
+        "name": "Shaun Salinas",
+        "roll": 8,
+        "class": 10,
+        "gender": "female",
+        "dob": "25/03/1997",
+        "phone": 5305874150,
+        "address": "10186 Washoe Rd Truckee, California(CA), 96161"
+    },
+    {
+        "name": "Martha Chase",
+        "roll": 9,
+        "class": 10,
+        "gender": "male",
+        "dob": "23/11/1997",
+        "phone": 6088257026,
+        "address": "1334 Woodgrove Way Sun Prairie, Wisconsin(WI), 53590"
+    },
+    {
+        "name": "Kaylynn Gilmore",
+        "roll": 10,
+        "class": 10,
+        "gender": "female",
+        "dob": "10/09/1996",
+        "phone": 2014894234,
+        "address": "66 Euclid Ave Hackensack, New Jersey(NJ), 07601"
+    },
+    {
+        "name": "June Gutierrez",
+        "roll": 11,
+        "class": 10,
+        "gender": "male",
+        "dob": "29/08/1998",
+        "phone": 3523314811,
+        "address": "12300 NW 56th Ave Gainesville, Florida(FL), 32653"
+    },
+    {
+        "name": "Patricia Espinoza",
+        "roll": 12,
+        "class": 10,
+        "gender": "female",
+        "dob": "04/09/1997",
+        "phone": 2708438626,
+        "address": "9089 Woodburn Allen Springs Rd Alvaton, Kentucky(KY), 42122"
+    }
+]
