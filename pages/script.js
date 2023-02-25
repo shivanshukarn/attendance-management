@@ -1,8 +1,7 @@
-const tableData = document.getElementById('table-data')
+let tableData = document.getElementById('table-data')
+let myurl = "http://localhost:3000/studentData.json"
 
-let url = "http://localhost:2211/studentData.json"
-
-fetch(url)
+fetch(myurl)
   .then((res) => res.json())
   .then((data) => {
     setData(data);
@@ -31,7 +30,6 @@ function setData(studentData) {
 </tr>`
 })
   console.log(studentData)
-  localStorage.setItem("stuentsNo", studentData.length);
 }
 
 function formVal(e) {
@@ -40,10 +38,29 @@ function formVal(e) {
   kk = kk.slice(0,kk.length-1)
 
   console.log(kk, aa)
-  sessionStorage.setItem(kk, aa);
+
+class Attended {
+  constructor(name = "", classe="", roll="", phone="", status="") {
+      this.name = name;
+      this.classe = classe;
+      this.roll = roll;
+      this.phone = phone;
+      this.status = status;
+  }
+  saveAsCSV() {
+      const csv = `${this.name},${this.classe},${this.roll},${this.phone},${this.status}\n`;
+      try {
+          fs.appendFileSync("./attend.csv", csv);
+      } catch (err) {
+          console.error(err);
+      }
+  }
 }
-let stuentsNo = localStorage.getItem('stuentsNo');
-for (let i = 0; i < stuentsNo; i++) {
-  rrr = sessionStorage.key(i)
-  console.log(rrr, sessionStorage.getItem(rrr))
+const startApp = () => {
+  const contact1 = new Attended("name", "class", "roll", "phone", "status");
+  contact1.saveAsCSV();
+  const contact2 = new Attended("hvbuhfsdv", 5, kk, 1231231230, aa);
+  contact2.saveAsCSV();
+}
+startApp()
 }
